@@ -1,0 +1,8 @@
+.player {
+  width: 40%;
+}
+.cards-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+}

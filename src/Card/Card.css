@@ -1,0 +1,29 @@
+.card {
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 23%;
+  text-align: center;
+  padding: 5px;
+}
+
+
+.outline {
+  width: 100%;
+}
+
+.top{
+  text-align: left;
+}
+.bottom{
+  text-align: right;
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 35%;
+    padding: 2px;
+  }
+  h1 {
+    display: none;
+  }
+}
